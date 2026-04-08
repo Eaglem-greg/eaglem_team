@@ -1,0 +1,16 @@
+curl -X POST http://localhost:8080/api/calculate \
+     -H "Content-Type: application/json" \
+     -d '{
+        "route_id": 42,
+        "office_from_id": 1,
+        "timestamp": "2024-01-15T10:00:00",
+        "status_1": 100,
+        "status_2": 150,
+        "status_3": 200,
+        "status_4": 50,
+        "status_5": 75,
+        "status_6": 120,
+        "status_7": 80,
+        "status_8": 90
+     }'
+> response.json
